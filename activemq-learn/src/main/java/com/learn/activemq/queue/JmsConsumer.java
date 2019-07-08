@@ -24,13 +24,14 @@ import java.io.IOException;
  *
  * 一个消费者一半（轮询消费）
  *
- *
- *
  */
 public class JmsConsumer {
 
+//    private static final String BROKER_URL = "tcp://192.168.1.105:61616";
 
-    private static final String BROKER_URL = "tcp://192.168.1.105:61616";
+//    private static final String BROKER_URL = "nio://192.168.1.105:61618";
+
+    private static final String BROKER_URL = "nio://192.168.1.105:61608";
 
     private static final String QUEUE_NAME = "queue01";
 

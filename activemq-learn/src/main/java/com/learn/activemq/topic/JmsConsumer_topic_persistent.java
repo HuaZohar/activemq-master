@@ -22,7 +22,7 @@ public class JmsConsumer_topic_persistent {
 
     public static void main(String[] args) {
 
-        System.out.println("z4");
+        System.out.println("z3");
 
         //1.创建连接工厂
         ActiveMQConnectionFactory activeMQConnectionFactory = new ActiveMQConnectionFactory(BIND_URL);
@@ -31,7 +31,7 @@ public class JmsConsumer_topic_persistent {
         try {
             //创建连接
             connection = activeMQConnectionFactory.createConnection();
-            connection.setClientID("z4");
+            connection.setClientID("z3");
             //创建会话
             session = connection.createSession(false, Session.AUTO_ACKNOWLEDGE);
 

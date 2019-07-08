@@ -12,7 +12,11 @@ import javax.jms.TextMessage;
 
 public class JmsProduce {
 
-    private static final String BROKER_URL = "tcp://192.168.1.105:61616";
+//    private static final String BROKER_URL = "tcp://192.168.1.105:61616";
+
+//    private static final String BROKER_URL = "nio://192.168.1.105:61618";
+
+    private static final String BROKER_URL = "nio://192.168.1.105:61608";
 
     private static final String QUEUE_NAME = "queue01";
 
