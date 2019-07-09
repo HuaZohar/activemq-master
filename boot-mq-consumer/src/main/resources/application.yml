@@ -8,5 +8,5 @@ spring:
   jms:
     pub-sub-domain: false  # false = queue, true = topic.  default value is false
 
-#\u81EA\u5B9A\u4E49\u961F\u5217\u540D\u79F0
+#queue name
 myQueue: boot-activemq-queue
